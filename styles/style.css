@@ -22,7 +22,9 @@ section{
 #banner{
     width: 100vw;
     height: 41.6vw;
-    background-image: url('../assets/hero-bg.png');
+    background-image: linear-gradient(
+        0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+    url('../assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -139,7 +141,9 @@ section{
     #banner{
         width: 100vw;
         height: 51.6vw;
-        background-image: url('../assets/hero-bg.png');
+        background-image: linear-gradient(
+        0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+        url('../assets/hero-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         color: rgb(255, 255, 255);
@@ -270,7 +274,9 @@ section{
     #banner{
         width: 100vw;
         height: 51.6vw;
-        background-image: url('../assets/hero-bg.png');
+        background-image: linear-gradient(
+        0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+        url('../assets/hero-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         color: rgb(255, 255, 255);
@@ -402,7 +408,9 @@ section{
     #banner{
         width: 100vw;
         height: 56.6vw;
-        background-image: url('../assets/hero-bg.png');
+        background-image: linear-gradient(
+        0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+        url('../assets/hero-bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         color: rgb(255, 255, 255);
