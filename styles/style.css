@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: auto;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#dis{
+    font-size: .8rem;
+}
+
+section{
+    margin-bottom: 80px;
+}
+
+#banner{
+    width: 100vw;
+    height: 41.6vw;
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner>div{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner h1, p{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#banner button{
+    height: 2.8rem;
+    padding: 0px 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: .2rem;
+    background-color: rgb(82, 195, 3);
+    border: none;
+}
+
+#cardbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+#cardbox>h1{
+    font-size: 3rem;
+    width: 50%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3 div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#cardbox p{
+    font-size: .8rem;
+}
+
+.button{
+    height: 2.8rem;
+    padding: 0px 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: .2rem;
+    background-color: rgb(82, 195, 3);
+    border: none;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+
+#container{
+    margin: 18% 10%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container p{
+    font-size: 1rem;
+}
+
+
+#partabout{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+#icon{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+  @media screen and (max-width: 1024px) and (min-width: 640px){
+    
+    section{
+        margin-bottom: 60px;
+    }
+
+    
+    #banner{
+        width: 100vw;
+        height: 51.6vw;
+        background-image: url('../assets/hero-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #banner>div{
+        height: 70%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #banner h1, p{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    #banner button{
+        height: 2rem;
+        padding: 0px 1rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+        font-size: .8rem;
+    }
+
+    #dis{
+        font-size: .8rem;
+    }
+
+
+    #cardbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 30px;
+    }
+    
+    #cardbox>h1{
+        font-size: 2rem;
+        width: 50%;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .container3{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 80px;
+    }
+    
+    .container3 div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    #cardbox p{
+        font-size: 1rem;
+    }
+    
+    .button{
+        height: 2.8rem;
+        padding: 0px 2rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: column;   
+    }
+    
+    
+    #container{
+        margin: 8% 10%;
+        height: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 40px;
+    }
+    
+    #container p{
+        font-size: 1rem;
+    }
+    
+    
+    #partabout{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    #icon{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #foodimg{
+        width: 80%;
+        margin: 0% 10%;
+        border-radius: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 640px) {
+    
+    section{
+        margin-bottom: 60px;
+    }
+    
+    #banner{
+        width: 100vw;
+        height: 51.6vw;
+        background-image: url('../assets/hero-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #banner>div{
+        height: 70%;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #banner h1, p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #banner button{
+        height: 2rem;
+        padding: 0px 1rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+        font-size: .8rem;
+    }
+
+    #dis{
+        font-size: .5rem;
+    }
+
+
+    #cardbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+    }
+    
+    #cardbox>h1{
+        font-size: 2rem;
+        width: 50%;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .container3{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 40px;
+    }
+    
+    .container3 div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    
+    #cardbox p{
+        font-size: .8rem;
+    }
+    
+    .button{
+        height: 2.8rem;
+        padding: 0px 2rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: column;   
+    }
+    
+    
+    #container{
+        margin: 8% 10%;
+        height: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 30px;
+    }
+    
+    #container p{
+        font-size: .8rem;
+    }
+    
+    
+    #partabout{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #icon{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #foodimg{
+        width: 80%;
+        margin: 0% 10%;
+        border-radius: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 1400px) and (min-width: 1024px){
+    
+    section{
+        margin-bottom: 60px;
+    }
+
+    
+    #banner{
+        width: 100vw;
+        height: 56.6vw;
+        background-image: url('../assets/hero-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #banner>div{
+        height: 70%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #banner h1, p{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    #banner button{
+        height: 2.3rem;
+        padding: 0px 1rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+        font-size: .8rem;
+    }
+
+    #dis{
+        font-size: 1rem;
+    }
+
+
+    #cardbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 30px;
+    }
+    
+    #cardbox>h1{
+        font-size: 2rem;
+        width: 50%;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .container3{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 80px;
+    }
+    
+    .container3 div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    
+    #cardbox p{
+        font-size: 1rem;
+    }
+    
+    .button{
+        height: 2.8rem;
+        padding: 0px 2rem;
+        color: rgb(255, 255, 255);
+        border-radius: .2rem;
+        background-color: rgb(82, 195, 3);
+        border: none;
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: column;   
+    }
+    
+    
+    #container{
+        margin: 8% 10%;
+        height: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 40px;
+    }
+    
+    #container p{
+        font-size: 1rem;
+    }
+    
+    
+    #partabout{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    
+    #icon{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    #foodimg{
+        width: 80%;
+        margin: 0% 10%;
+        border-radius: 10px;
+    }
+
+  }
